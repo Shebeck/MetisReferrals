@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d11"
     tools:context="com.example.bryanshebeck.metisreferrals.MainActivity">
 
 </android.support.constraint.ConstraintLayout>

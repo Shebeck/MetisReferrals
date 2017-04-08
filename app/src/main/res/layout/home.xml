@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d1d1"
+    android:orientation="vertical"
     tools:context="com.example.bryanshebeck.metisreferrals.Home">
 
 
@@ -17,5 +19,7 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:dividerHeight="10dp"
+        android:divider="#d1d1d1"/>
 </android.support.constraint.ConstraintLayout>
