@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Metis Referrals</string>
+    <string name="loginButton">Login</string>
 </resources>
