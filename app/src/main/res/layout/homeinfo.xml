@@ -17,12 +17,9 @@
     android:text="Profile"
     android:textSize="25dp"
     android:textColor="#e3e"
-        tools:layout_constraintTop_creator="1"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/homename"
@@ -31,11 +28,8 @@
         android:text="Name"
         android:textColor="#e3e"
         android:textSize="15dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="13dp"
-        app:layout_constraintTop_toBottomOf="@+id/homeadd"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/homeadd" />
+        tools:layout_editor_absoluteY="62dp"
+        tools:layout_editor_absoluteX="47dp" />
 
     <TextView
         android:id="@+id/homeadd"
@@ -44,12 +38,29 @@
         android:text="Address"
         android:textColor="#e3e"
         android:textSize="15dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/homeinfo"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/homeinfo" />
+        tools:layout_editor_absoluteY="96dp"
+        tools:layout_editor_absoluteX="47dp" />
+    <TextView
+        android:id="@+id/homeemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#e3e"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteY="123dp"
+        tools:layout_editor_absoluteX="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctor"
+        android:text="Doctor"
+        android:textSize="25dp"
+        android:textColor="#e3e"
+        android:layout_marginStart="16dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
