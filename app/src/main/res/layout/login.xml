@@ -23,7 +23,8 @@
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="50dp"
         app:layout_constraintLeft_toLeftOf="@+id/sign_up"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.0"
+        android:background="@null" />
 
     <ImageButton
         android:id="@+id/sign_up"
@@ -37,7 +38,8 @@
         tools:ignore="ContentDescription"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        tools:layout_constraintRight_creator="1"
+        android:background="@null" />
 
     <ImageView
         android:id="@+id/logo"
