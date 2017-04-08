@@ -15,14 +15,14 @@
     >
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/homeinfo"
-    android:text="Profile:"
-    android:textSize="25dp"
-    android:textColor="#1a385a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeinfo"
+        android:text="Profile:"
+        android:textSize="25dp"
+        android:textColor="#1a385a"
 
-    android:layout_marginStart="16dp"
+        android:layout_marginStart="16dp"
         tools:layout_constraintTop_creator="1"
         android:layout_marginTop="16dp"
         tools:layout_constraintLeft_creator="1"
