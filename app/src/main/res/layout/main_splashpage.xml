@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Metis_LogoName"
+        app:srcCompat="@drawable/metis_logoname"
         tools:ignore="ContentDescription,MissingConstraints"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
