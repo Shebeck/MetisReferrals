@@ -4,7 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d11"
+    android:background="#ffffff"
     tools:context="com.example.bryanshebeck.metisreferrals.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Metis_LogoName"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="141dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
