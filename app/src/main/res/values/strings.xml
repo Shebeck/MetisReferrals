@@ -2,4 +2,9 @@
     <string name="app_name">Metis Referrals</string>
     <string name="loginButton">Log in</string>
     <string name="SignUpButton">Sign Up</string>
+    <string name="Profile">Profile</string>
+    <string name="MyDoctors">My Doctors</string>
+    <string name="MyAppts">My Appointments</string>
+    <string name="Settings">Settings</string>
+    <string name="About">About</string>
 </resources>
