@@ -17,6 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home"></activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name=".MyAppointments"></activity>
+        <activity android:name=".MyDoctors"></activity>
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".Settings"></activity>
     </application>
 
 </manifest>
