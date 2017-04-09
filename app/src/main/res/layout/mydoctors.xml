@@ -12,54 +12,181 @@
     android:background="#ffffff"
     >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeinfo"
+        android:text="My Doctors:"
+        android:textSize="25dp"
+        android:textColor="#1a385a"
 
-        <ImageButton
-            android:id="@+id/persistentDocButton"
-            android:layout_width="97dp"
-            android:layout_height="50dp"
-            app:srcCompat="@drawable/onedochdpi"
-            android:layout_alignParentBottom="true" />
+        android:layout_marginStart="16dp"
+ />
 
-        <ImageButton
-            android:id="@+id/persistentApptButton"
-            android:layout_width="97dp"
-            android:layout_height="50dp"
-            app:srcCompat="@drawable/oneapptshdpi"
-            android:layout_alignParentBottom="true"
-            android:layout_toStartOf="@+id/persistentProfileButton" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Specialty:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+ />
+    <!-- android:id="@+id/homename" -->
 
-        <ImageButton
-            android:id="@+id/persistentProfileButton"
-            android:layout_width="97dp"
-            android:layout_height="50dp"
-            app:srcCompat="@drawable/oneprohdpi"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView4"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView9"
+        android:layout_marginTop="97dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- android:id="@+id/homename" -->
 
-        <ImageButton
-            android:id="@+id/persistentHomeButton"
-            android:layout_width="97dp"
-            android:layout_height="50dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/persistentDocButton"
-            app:srcCompat="@drawable/onehomehdpi" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView9"
+  />
+    <!-- android:id="@+id/homename" -->
 
-        <ImageButton
-            android:id="@+id/doNotUse"
-            android:layout_width="97dp"
-            android:layout_height="50dp"
-            app:srcCompat="@drawable/onedochdpi"
-            android:layout_alignParentBottom="true"
-            android:layout_toEndOf="@+id/persistentDocButton" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Middle initial:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView3"
+        android:layout_marginStart="38dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <!-- android:id="@+id/homename" -->
 
-        <ImageView
-            android:id="@+id/doctorsHeader"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp"
-            app:srcCompat="@drawable/docsheadhdpi" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView8"/>
+    <!-- android:id="@+id/homename" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView6"
+        android:layout_marginStart="38dp"
+    />
+    <!-- android:id="@+id/homename" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView7"
+ />
+    <!-- android:id="@+id/homename" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zip:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+     />
+    <!-- android:id="@+id/homename" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView"
+ />
+    <!-- android:id="@+id/homename" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+        android:id="@+id/textView5"
+ />
+    <!-- android:id="@+id/homename" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insurance:"
+        android:textColor="#1a385a"
+        android:textSize="15dp"
+ />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        app:srcCompat="@drawable/bottomhomebuttonldpi"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="533dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="110sp"
+        android:layout_height="92sp"
+        app:srcCompat="@drawable/altbottomdocshdpi"
+        tools:layout_editor_absoluteY="533dp"
+        tools:layout_editor_absoluteX="103dp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        app:srcCompat="@drawable/bottomapptsbuttonmdpi"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="533dp"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        app:srcCompat="@drawable/bottomprofbuttonldpi"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="533dp"
+        android:layout_column="4"
+        android:layout_row="0"
+        android:background="@null"/>
+
+    <!-- android:id="@+id/homename" -->
+
+
 
 
 </RelativeLayout>
