@@ -52,4 +52,13 @@
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/persistentDocButton" />
 
+    <ImageView
+        android:id="@+id/appointmentsHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/apptsheadhdpi" />
+
 </RelativeLayout>

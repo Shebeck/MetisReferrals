@@ -46,11 +46,11 @@ public class MyAppointments extends AppCompatActivity {
         });
 
 
-        ImageButton homeDoctorsButton = (ImageButton) findViewById(R.id.homeScreenMyDocsButton);
+        ImageButton homeDoctorsButton = (ImageButton) findViewById(R.id.persistentHomeButton);
         homeDoctorsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MyAppointments.this, MyDoctors.class));
+                startActivity(new Intent(MyAppointments.this, Home.class));
             }
         });
 
