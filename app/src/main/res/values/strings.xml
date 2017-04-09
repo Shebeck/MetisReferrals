@@ -7,4 +7,6 @@
     <string name="MyAppts">My Appointments</string>
     <string name="Settings">Settings</string>
     <string name="About">About</string>
+    <string name="AboutText">Text</string>
+    <string name="AboutName">Metis Referrals</string>
 </resources>
