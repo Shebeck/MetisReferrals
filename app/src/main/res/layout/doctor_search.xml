@@ -66,6 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/doctorsHeader"
         android:textSize="20sp"
+        android:drawableLeft="@mipmap/doctorimage"
         />
     <!-- android:drawableLeft="@mipmap/doctorimage" Basil/TJ
     I fixed error tempory, but idk what img goes here,
