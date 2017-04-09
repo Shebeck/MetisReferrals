@@ -14,13 +14,38 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
 
-        Button myApptButton = (Button) findViewById(R.id.myAppt);
-        myApptButton.setOnClickListener(new View.OnClickListener(){
+        ImageButton homeProfileButton = (ImageButton) findViewById(R.id.homeScreenProfileButton);
+        homeProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, Profile.class));
+            }
+        });
+
+        ImageButton homeDoctorsButton = (ImageButton) findViewById(R.id.homeScreenMyDocsButton);
+        homeDoctorsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, search.class));
+            }
+        });
+
+        ImageButton homeAppointmentsButton = (ImageButton) findViewById(R.id.homeScreenAppointmentsButton);
+        homeAppointmentsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 startActivity(new Intent(Home.this, MyAppointments.class));
             }
         });
+
+        ImageButton homeAboutUsButton = (ImageButton) findViewById(R.id.homeScreenAboutButton);
+        homeAboutUsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, About.class));
+            }
+        });
+
 
 
     }

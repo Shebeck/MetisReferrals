@@ -11,7 +11,13 @@
         When you are searching for your doctor, you can filter by their specifications and the insurance they take.
         Set up an appointment anytime, anywhere once you find the doctor you need.
         Also, for future appointments you can create your own personal profile to save the doctors you have found for your records.
-        With Metis Referrals, you get the most quality of care you need saving more time and having everything you need to know at your fingertips.
- </string>
+        With Metis Referrals, you get the most quality of care you need saving more time and having everything you need to know at your fingertips.</string>
     <string name="AboutName">Metis Referrals</string>
+    <string name="firstNameText">First Name</string>
+    <string name="middleInitialText">Middle Initial</string>
+    <string name="lastNameText">Last Name</string>
+    <string name="emailText">Email</string>
+    <string name="passwordText">Password</string>
+    <string name="confirmPasswordText">Confirm Password</string>
+
 </resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryanshebeck.metisreferrals.SignIn"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/firstNameText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <EditText
+        android:id="@+id/firstResp"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/firstName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#1a385a" />
+
+    <TextView
+        android:id="@+id/middleInit"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/firstResp"
+        android:layout_below="@+id/firstResp"
+        android:layout_marginTop="10dp"
+        android:text="@string/middleInitialText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <EditText
+        android:id="@+id/middleResp"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/middleInit"
+        android:ems="10"
+        android:hint="@string/middleInitialText"
+        android:inputType="textPersonName"
+        android:textColor="#1a385a" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/middleResp"
+        android:layout_marginTop="10dp"
+        android:text="@string/lastNameText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <EditText
+        android:id="@+id/lastResp"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/lastName"
+        android:layout_alignStart="@+id/firstName"
+        android:textColor="#1a385a" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/lastResp"
+        android:layout_marginTop="10dp"
+        android:text="@string/emailText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <EditText
+        android:id="@+id/emailResp"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#1a385a"
+        android:layout_below="@+id/email"
+        android:layout_alignStart="@+id/email" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/emailResp"
+        android:layout_marginTop="10dp"
+        android:text="@string/passwordText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <EditText
+        android:id="@+id/passResp1"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#1a385a" />
+
+    <TextView
+        android:id="@+id/password2"
+        android:layout_width="125dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/passResp1"
+        android:layout_marginTop="10dp"
+        android:text="@string/confirmPasswordText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <EditText
+        android:id="@+id/passResp2"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/password2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#1a385a" />
+
+    <ImageButton
+        android:id="@+id/nextRegistrationButton"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/nextbuttonxhdpi" />
+
+</RelativeLayout>
