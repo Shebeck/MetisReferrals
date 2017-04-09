@@ -18,7 +18,7 @@ public class SignIn extends AppCompatActivity {
         EditText edittext = (EditText)findViewById(R.id.passResp1);
         edittext.setTransformationMethod(new AsteriskPasswordTransformationMethod());
 
-        ImageButton nextButton = (ImageButton) findViewById(R.id.persistentHomeButton);
+        ImageButton nextButton = (ImageButton) findViewById(R.id.nextRegistrationButton);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

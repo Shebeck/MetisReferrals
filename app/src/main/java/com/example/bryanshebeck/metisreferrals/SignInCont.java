@@ -13,7 +13,7 @@ public class SignInCont extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signin_cont);
 
-        ImageButton nextButton = (ImageButton) findViewById(R.id.persistentHomeButton);
+        ImageButton nextButton = (ImageButton) findViewById(R.id.saveRegistration);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
