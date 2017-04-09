@@ -23,7 +23,8 @@
         <activity android:name=".MyDoctors" />
         <activity android:name=".Profile" />
         <activity android:name=".Settings" />
-        <activity android:name=".SignIn"></activity>
+        <activity android:name=".SignIn" />
+        <activity android:name=".SignInCont"></activity>
     </application>
 
 </manifest>
