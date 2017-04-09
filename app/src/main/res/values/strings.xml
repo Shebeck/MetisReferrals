@@ -20,5 +20,15 @@
     <string name="emailText">Email</string>
     <string name="passwordText">Password</string>
     <string name="confirmPasswordText">Confirm Password</string>
+    <string name="ProfilFirsteName">Alex</string>
+    <string name="ProfilLasteName">Dungy</string>
+    <string name="ProfilPasswords">**********</string>
+    <string name="ProfileAddress">9920 Saint Louis St.</string>
+    <string name="ProfilCity">Atlanta, GA</string>
+    <string name="ProfilST">GA</string>
+    <string name="ProfilZip">465789</string>
+    <string name="ProfilEmail"> www.ASmith@gmail.com</string>
+    <string name="ProfilInsurance">Florida Blue</string>
+
 
 </resources>

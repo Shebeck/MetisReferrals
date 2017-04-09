@@ -135,10 +135,13 @@
         android:layout_alignStart="@+id/firstName"
         android:layout_below="@+id/passResp1"
         android:layout_marginTop="10dp"
+        android:cursorVisible="false"
         android:text="@string/confirmPasswordText"
         android:textAlignment="textStart"
         android:textColor="#1a385a"
-        android:textColorLink="@color/colorPrimaryDark" />
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textCursorDrawable="@color/colorPrimaryDark"
+        tools:ignore="TextViewEdits" />
 
     <EditText
         android:id="@+id/passResp2"
