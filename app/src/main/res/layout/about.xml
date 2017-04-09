@@ -14,7 +14,8 @@
         android:layout_width="97dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/onedochdpi"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/persistentApptButton"
@@ -22,7 +23,8 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/oneapptshdpi"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/persistentProfileButton" />
+        android:layout_toStartOf="@+id/persistentProfileButton"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/persistentProfileButton"
@@ -30,7 +32,8 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/oneprohdpi"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/persistentHomeButton"
@@ -38,7 +41,8 @@
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/persistentDocButton"
-        app:srcCompat="@drawable/onehomehdpi" />
+        app:srcCompat="@drawable/onehomehdpi"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/doNotUse"
@@ -46,7 +50,8 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/onedochdpi"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/persistentDocButton" />
+        android:layout_toEndOf="@+id/persistentDocButton"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -54,6 +59,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/about"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
 
 </RelativeLayout>
