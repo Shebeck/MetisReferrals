@@ -7,10 +7,9 @@
     <string name="MyAppts">My Appointments</string>
     <string name="Settings">Settings</string>
     <string name="About">About</string>
-    <string name="AboutText">Metis Referrals is a more fast and efficient way to find doctors around your area.
-        When you are searching for your doctor, you can filter by their specifications and the insurance they take.
-        Set up an appointment anytime, anywhere once you find the doctor you need.
-        Also, for future appointments you can create your own personal profile to save the doctors you have found for your records.
+    <string name="AboutText">Metis Referrals is a fast and efficient way to find doctors around you in your area.
+        When you are searching for your doctor, you can filter by their specialities, insurance, and location.
+        With your own customized profile you can schedule future appointments at your own convince.
         With Metis Referrals, you get the most quality of care you need saving more time and having everything you need to know at your fingertips.</string>
     <string name="AboutName">Metis Referrals</string>
     <string name="firstNameText">First Name</string>
