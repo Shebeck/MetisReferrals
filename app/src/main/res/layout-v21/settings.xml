@@ -6,33 +6,22 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:orientation="vertical"
-    tools:context="com.example.bryanshebeck.metisreferrals.Home"
-    tools:layout_editor_absoluteY="25dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:context="com.example.bryanshebeck.metisreferrals.Home">
 
-    <TextView
-        android:id="@+id/textView28"
+    <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chnage Email:"
-        android:textColor="@color/colorPrimaryDark"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/textView22"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="23dp"
-        app:layout_constraintLeft_toLeftOf="@+id/textView8"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
         android:text="Change Password:"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
         android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView27"
-        tools:layout_constraintBaseline_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView28"
+        app:layout_constraintLeft_toLeftOf="@+id/button"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -41,12 +30,13 @@
         android:layout_height="wrap_content"
         android:text="@string/ProfilePasswords"
         android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="23dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView26"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toRightOf="@+id/textView22" />
+        tools:layout_constraintBottom_creator="1" />
 
     <TextView
         android:id="@+id/textView26"
@@ -54,12 +44,12 @@
         android:layout_height="wrap_content"
         android:text="@string/ProfileEmail"
         android:textColor="@color/colorPrimaryDark"
-        tools:ignore="MissingConstraints"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="236dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView27"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:layout_marginBottom="7dp" />
 
     <TextView
         android:id="@+id/textView25"
@@ -67,10 +57,10 @@
         android:layout_height="wrap_content"
         android:text="April 9th, 2017"
         android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="4dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView24"
         app:layout_constraintTop_toTopOf="@+id/textView20"
         tools:ignore="HardcodedText" />
 
@@ -80,13 +70,15 @@
         android:layout_height="wrap_content"
         android:text="1.0.0"
         android:textColor="@color/colorPrimaryDark"
-        tools:ignore="HardcodedText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/textView25"
-        android:layout_marginStart="14dp"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintLeft_toRightOf="@+id/textView22" />
+        android:layout_marginBottom="13dp"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView23"
@@ -94,12 +86,13 @@
         android:layout_height="wrap_content"
         android:text="No"
         android:textColor="@color/colorPrimaryDark"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/textView26"
-        android:layout_marginStart="3dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
+        tools:layout_constraintBaseline_creator="1"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="29dp"
-        app:layout_constraintLeft_toLeftOf="@+id/textView26"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -108,9 +101,9 @@
         android:layout_height="wrap_content"
         android:text="Last Updated;"
         android:textColor="@color/colorPrimaryDark"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="13dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/textView19"
         tools:ignore="HardcodedText" />
@@ -121,12 +114,12 @@
         android:layout_height="wrap_content"
         android:text="Verison:"
         android:textColor="@color/colorPrimaryDark"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="25dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView22" />
+        app:layout_constraintLeft_toLeftOf="@+id/button3"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -145,10 +138,10 @@
         android:layout_height="wrap_content"
         android:text="Notifcations:"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="49dp"
         app:layout_constraintRight_toLeftOf="@+id/textView24"
         tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="49dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView21"
         tools:layout_constraintBaseline_creator="1"
         tools:layout_constraintLeft_creator="1"
@@ -161,10 +154,17 @@
         android:layout_height="wrap_content"
         android:text="Monthly Email:"
         android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintRight_toLeftOf="@+id/textView23"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
         android:layout_marginStart="48dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView23"
-        tools:layout_constraintBaseline_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView26"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
         tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="46dp"
         app:layout_constraintLeft_toLeftOf="parent"
         tools:ignore="HardcodedText" />
 
@@ -173,15 +173,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginEnd="32dp"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/textView27"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="75dp"
-        app:layout_constraintLeft_toLeftOf="@+id/textView25" />
+        android:layout_marginEnd="171dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="76dp" />
 
     <TextView
         android:id="@+id/textView21"
@@ -189,13 +186,28 @@
         android:layout_height="wrap_content"
         android:text="Yes"
         android:textColor="@color/colorPrimaryDark"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/textView23"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="42dp"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="72dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:layout_constraintLeft_creator="1"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="Change Email:"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8"
         tools:ignore="HardcodedText" />
 
 </android.support.constraint.ConstraintLayout>
