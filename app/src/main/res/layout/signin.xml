@@ -17,7 +17,8 @@
         android:layout_marginTop="20dp"
         android:text="@string/firstNameText"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/firstResp"
@@ -40,7 +41,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/middleInitialText"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/middleResp"
@@ -63,7 +65,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/lastNameText"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/lastResp"
@@ -86,7 +89,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/emailText"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/emailResp"
@@ -109,7 +113,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/passwordText"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/passResp1"
@@ -132,7 +137,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/confirmPasswordText"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/passResp2"

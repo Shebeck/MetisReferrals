@@ -18,7 +18,8 @@
         android:layout_marginTop="20dp"
         android:text="@string/addressText"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/getAddress"
@@ -42,6 +43,7 @@
         android:text="City"
         android:textAlignment="textStart"
         android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
         tools:ignore="HardcodedText" />
 
     <EditText
@@ -67,6 +69,7 @@
         android:text="State"
         android:textAlignment="textStart"
         android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
         tools:ignore="HardcodedText" />
 
     <EditText
@@ -83,14 +86,15 @@
 
     <TextView
         android:id="@+id/insuranceText"
-        android:text="Insurance"
         android:layout_width="80dp"
         android:layout_height="20dp"
         android:layout_alignStart="@+id/addressText"
         android:layout_below="@+id/getState"
         android:layout_marginTop="10dp"
+        android:text="Insurance"
         android:textAlignment="textStart"
         android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
         tools:ignore="HardcodedText" />
 
     <EditText
