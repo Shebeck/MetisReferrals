@@ -6,4 +6,38 @@
     android:layout_height="match_parent"
     tools:context="com.example.bryanshebeck.metisreferrals.SignIn">
 
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="First Name:"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/middleInit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstName"
+        android:layout_marginTop="46dp"
+        android:text="Middle Initial"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/firstName"
+        android:layout_below="@+id/firstName"
+        android:layout_marginTop="124dp"
+        android:text="Last Name"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
 </RelativeLayout>
