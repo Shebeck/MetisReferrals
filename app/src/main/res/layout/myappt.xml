@@ -67,4 +67,14 @@
         app:srcCompat="@drawable/apptsheadhdpi"
         tools:ignore="ContentDescription" />
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cal"
+        tools:ignore="ContentDescription"
+        android:layout_below="@+id/appointmentsHeaderText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
+
 </RelativeLayout>
