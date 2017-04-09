@@ -114,7 +114,7 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/review"
+        android:id="@+id/reviewView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/doctorName"
@@ -132,7 +132,7 @@
         android:layout_height="wrap_content"
         android:background="#1a385a"
         android:text="Leave Review"
-        android:layout_below="@+id/review"
+        android:layout_below="@+id/reviewView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         tools:ignore="HardcodedText" />
