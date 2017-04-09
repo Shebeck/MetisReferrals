@@ -135,4 +135,13 @@
         android:inputType="textPersonName"
         android:textColor="#1a385a" />
 
+    <ImageButton
+        android:id="@+id/nextRegistrationButton"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/nextbuttonxhdpi" />
+
 </RelativeLayout>

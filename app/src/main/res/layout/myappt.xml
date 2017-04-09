@@ -51,4 +51,5 @@
         app:srcCompat="@drawable/onedochdpi"
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/persistentDocButton" />
+
 </RelativeLayout>

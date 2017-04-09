@@ -94,5 +94,15 @@
         android:layout_below="@+id/insuranceText"
         android:layout_alignStart="@+id/insuranceText" />
 
+    <ImageButton
+        android:id="@+id/saveRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/savebuttonxhdpi"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

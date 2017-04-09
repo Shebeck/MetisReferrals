@@ -1,10 +1,12 @@
 package com.example.bryanshebeck.metisreferrals;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class SignIn extends AppCompatActivity {
 
@@ -15,6 +17,14 @@ public class SignIn extends AppCompatActivity {
 
         EditText edittext = (EditText)findViewById(R.id.passResp1);
         edittext.setTransformationMethod(new AsteriskPasswordTransformationMethod());
+
+        ImageButton nextButton = (ImageButton) findViewById(R.id.persistentHomeButton);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignIn.this, SignInCont.class));
+            }
+        });
     }
 
     public class AsteriskPasswordTransformationMethod extends PasswordTransformationMethod {
