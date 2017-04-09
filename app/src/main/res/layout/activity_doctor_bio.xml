@@ -7,4 +7,16 @@
     tools:context="com.example.bryanshebeck.metisreferrals.doctorBio"
     android:background="@android:color/background_light">
 
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/addressText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
 </RelativeLayout>
