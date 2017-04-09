@@ -2,6 +2,7 @@ package com.example.bryanshebeck.metisreferrals;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class Login extends AppCompatActivity {
 
