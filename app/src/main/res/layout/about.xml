@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,15 +8,52 @@
     android:orientation="vertical"
     tools:context="com.example.bryanshebeck.metisreferrals.Home">
 
+
+    <ImageButton
+        android:id="@+id/persistentDocButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/onedochdpi"
+        android:layout_alignParentBottom="true" />
+
+    <ImageButton
+        android:id="@+id/persistentApptButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/oneapptshdpi"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/persistentProfileButton" />
+
+    <ImageButton
+        android:id="@+id/persistentProfileButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/oneprohdpi"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/persistentHomeButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/persistentDocButton"
+        app:srcCompat="@drawable/onehomehdpi" />
+
+    <ImageButton
+        android:id="@+id/doNotUse"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/onedochdpi"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/persistentDocButton" />
+
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="154dp"
-        android:layout_height="174dp"
-        app:srcCompat="@drawable/m_logo"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteX="214dp"
-        tools:ignore="ContentDescription,RtlHardcoded" />
-</android.support.constraint.ConstraintLayout>
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/about"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

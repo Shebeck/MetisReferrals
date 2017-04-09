@@ -26,7 +26,7 @@ public class Home extends AppCompatActivity {
         homeDoctorsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Home.this, MyDoctors.class));
+                startActivity(new Intent(Home.this, search.class));
             }
         });
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,172 +9,56 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp"
     android:orientation="vertical"
-    android:background="#ffffff"
+    android:background="#ffffff">
 
+    <ImageButton
+        android:id="@+id/persistentDocButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/onedochdpi"
+        android:layout_alignParentBottom="true"
+         />
 
-    >
+    <ImageButton
+        android:id="@+id/persistentApptButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/oneapptshdpi"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/persistentProfileButton" />
 
-    <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/homeinfo"
-    android:text="Profile:"
-    android:textSize="25dp"
-    android:textColor="#1a385a"
+    <ImageButton
+        android:id="@+id/persistentProfileButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/oneprohdpi"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
-    android:layout_marginStart="16dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="16dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/persistentHomeButton"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/persistentDocButton"
+        app:srcCompat="@drawable/onehomehdpi" />
 
-    <TextView
+    <ImageButton
+        android:id="@+id/doNotUse"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/onedochdpi"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/persistentDocButton" />
+
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Name:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView4"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/textView3"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/homeinfo"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView3" />
-    <!-- android:id="@+id/homename" -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Last Name:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/textView4"
-        android:layout_marginTop="35dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView4"
-        android:id="@+id/textView9"
-        app:layout_constraintHorizontal_bias="0.0" />
-    <!-- android:id="@+id/homename" -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Middle initial:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView3"
-        android:layout_marginStart="38dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="9dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
-    <!-- android:id="@+id/homename" -->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Address:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView8"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/textView6"
-        android:layout_marginTop="15dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toRightOf="@+id/textView6" />
-    <!-- android:id="@+id/homename" -->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="City:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView6"
-        android:layout_marginStart="38dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="7dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
-    <!-- android:id="@+id/homename" -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="State:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView7"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="7dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView6" />
-    <!-- android:id="@+id/homename" -->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Zip:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView2"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView7" />
-    <!-- android:id="@+id/homename" -->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Phone Number:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="7dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView5" />
-    <!-- android:id="@+id/homename" -->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        android:id="@+id/textView5"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="15dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView2" />
-    <!-- android:id="@+id/homename" -->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Insurance:"
-        android:textColor="#1a385a"
-        android:textSize="15dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="7dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/textView" />
-    <!-- android:id="@+id/homename" -->
+        app:srcCompat="@drawable/profhdpi"
+        android:layout_above="@+id/persistentDocButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="388dp" />
 
 
-
-
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
