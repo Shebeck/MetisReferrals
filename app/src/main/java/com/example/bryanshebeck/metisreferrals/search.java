@@ -15,7 +15,7 @@ public class search extends ListActivity {
         super.onCreate(savedInstanceState);
 
         String[] doctors = {"Michael Jimenez", "Raul Ramos", "George Martin Engle", "Phillis Mycourte", "Herbert Thompson"};
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1));
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.doctor_search, R.id.doctorsListView, doctors));
     }
 
         protected void onListItemClick(ListView l, View v, int position, long id)
@@ -24,8 +24,10 @@ public class search extends ListActivity {
         {
             case 0:
                 startActivity(new Intent(search.this, doctorBio.class));
+                break;
             case 1:
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.sacred-heart.org/medicalgroup/profile/?ID=24")));
+                break;
             case 2:
 
             case 3:

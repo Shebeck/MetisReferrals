@@ -17,7 +17,7 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/onedochdpi"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/homeinfo" />
+         />
 
     <ImageButton
         android:id="@+id/persistentApptButton"
@@ -50,6 +50,15 @@
         app:srcCompat="@drawable/onedochdpi"
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/persistentDocButton" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/profhdpi"
+        android:layout_above="@+id/persistentDocButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="388dp" />
 
 
 </RelativeLayout>

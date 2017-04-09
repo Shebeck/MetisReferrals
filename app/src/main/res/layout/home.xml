@@ -37,7 +37,7 @@
         android:layout_centerHorizontal="true" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/homeScreenAppointmentsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/background_light"
@@ -55,11 +55,11 @@
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/homeScreenSettingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageButton9"
+        android:layout_below="@+id/homeScreenAppointmentsButton"
         android:background="@android:color/background_light"
         app:srcCompat="@drawable/homesettshdpi" />
 
