@@ -12,13 +12,13 @@
         android:id="@+id/addressText"
         android:layout_width="80dp"
         android:layout_height="20dp"
-        android:text="Address:"
-        android:textAlignment="textStart"
-        android:textColor="#1a385a"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:text="@string/addressText"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
 
     <EditText
         android:id="@+id/getAddress"
@@ -28,7 +28,8 @@
         android:layout_below="@+id/addressText"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/cityText"
@@ -39,7 +40,8 @@
         android:layout_marginTop="10dp"
         android:text="City"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/getCity"
@@ -50,7 +52,8 @@
         android:ems="10"
         android:hint="Middle Initial"
         android:inputType="textPersonName"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/stateText"
@@ -61,7 +64,8 @@
         android:layout_marginTop="10dp"
         android:text="State"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/getState"
@@ -71,7 +75,8 @@
         android:inputType="textPersonName"
         android:layout_below="@+id/stateText"
         android:layout_alignStart="@+id/addressText"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/insuranceText"
@@ -82,7 +87,8 @@
         android:layout_below="@+id/getState"
         android:layout_marginTop="10dp"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/getInsurance"
@@ -92,7 +98,8 @@
         android:inputType="textPersonName"
         android:textColor="#1a385a"
         android:layout_below="@+id/insuranceText"
-        android:layout_alignStart="@+id/insuranceText" />
+        android:layout_alignStart="@+id/insuranceText"
+        tools:ignore="LabelFor" />
 
     <ImageButton
         android:id="@+id/saveRegistration"
@@ -102,7 +109,8 @@
         android:background="@android:color/background_light"
         app:srcCompat="@drawable/savebuttonxhdpi"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
 
 
 </RelativeLayout>
