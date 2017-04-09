@@ -29,6 +29,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
         tools:ignore="LabelFor" />
 
     <TextView
@@ -53,6 +54,7 @@
         android:hint="Middle Initial"
         android:inputType="textPersonName"
         android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -71,11 +73,12 @@
         android:id="@+id/getState"
         android:layout_width="345dp"
         android:layout_height="50dp"
+        android:layout_alignStart="@+id/addressText"
+        android:layout_below="@+id/stateText"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_below="@+id/stateText"
-        android:layout_alignStart="@+id/addressText"
         android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
         tools:ignore="LabelFor" />
 
     <TextView
@@ -94,11 +97,12 @@
         android:id="@+id/getInsurance"
         android:layout_width="345dp"
         android:layout_height="50dp"
+        android:layout_alignStart="@+id/insuranceText"
+        android:layout_below="@+id/insuranceText"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="#1a385a"
-        android:layout_below="@+id/insuranceText"
-        android:layout_alignStart="@+id/insuranceText"
+        android:textColorLink="@color/colorPrimaryDark"
         tools:ignore="LabelFor" />
 
     <ImageButton

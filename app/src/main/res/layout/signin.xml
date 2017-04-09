@@ -27,7 +27,9 @@
         android:layout_below="@+id/firstName"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/middleInit"
@@ -49,7 +51,8 @@
         android:ems="10"
         android:hint="@string/middleInitialText"
         android:inputType="textPersonName"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark" />
 
     <TextView
         android:id="@+id/lastName"
@@ -66,11 +69,13 @@
         android:id="@+id/lastResp"
         android:layout_width="345dp"
         android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/lastName"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_below="@+id/lastName"
-        android:layout_alignStart="@+id/firstName"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/email"
@@ -87,11 +92,13 @@
         android:id="@+id/emailResp"
         android:layout_width="345dp"
         android:layout_height="50dp"
+        android:layout_alignStart="@+id/email"
+        android:layout_below="@+id/email"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="#1a385a"
-        android:layout_below="@+id/email"
-        android:layout_alignStart="@+id/email" />
+        android:textColorLink="@color/colorPrimaryDark"
+        tools:ignore="LabelFor,TextFields" />
 
     <TextView
         android:id="@+id/password"
@@ -112,7 +119,9 @@
         android:layout_below="@+id/password"
         android:ems="10"
         android:inputType="textPassword"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/password2"
@@ -133,7 +142,9 @@
         android:layout_below="@+id/password2"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textColorLink="@color/colorPrimaryDark"
+        tools:ignore="LabelFor" />
 
     <ImageButton
         android:id="@+id/nextRegistrationButton"
@@ -142,6 +153,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/background_light"
-        app:srcCompat="@drawable/nextbuttonxhdpi" />
+        app:srcCompat="@drawable/nextbuttonxhdpi"
+        tools:ignore="ContentDescription" />
 
 </RelativeLayout>
