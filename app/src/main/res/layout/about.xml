@@ -62,4 +62,28 @@
         android:layout_alignParentStart="true"
         tools:ignore="ContentDescription" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/smllogohdpi"
+        tools:ignore="ContentDescription"
+        android:layout_above="@+id/editText2"
+        android:layout_toEndOf="@+id/persistentDocButton"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/AboutText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:layout_above="@+id/persistentDocButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        tools:ignore="LabelFor" />
+
 </RelativeLayout>
