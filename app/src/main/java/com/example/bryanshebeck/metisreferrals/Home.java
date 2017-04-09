@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Home extends AppCompatActivity {
 
@@ -20,6 +21,7 @@ public class Home extends AppCompatActivity {
                 startActivity(new Intent(Home.this, MyAppointments.class));
             }
         });
+
 
     }
 }
