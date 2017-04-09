@@ -134,6 +134,7 @@
         android:text="Leave Review"
         android:layout_below="@+id/review"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp" />
+        android:layout_marginTop="26dp"
+        tools:ignore="HardcodedText" />
 
 </RelativeLayout>
