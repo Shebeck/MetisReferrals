@@ -84,6 +84,6 @@
         android:text="@string/AboutText"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor,TextViewEdits" />
 
 </RelativeLayout>
