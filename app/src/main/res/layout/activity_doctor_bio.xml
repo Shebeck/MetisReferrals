@@ -10,13 +10,120 @@
     <TextView
         android:id="@+id/doctorName"
         android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/addressText"
+        android:layout_marginTop="30dp"
+        android:ems="30"
+        android:text="Michael Jimenez"
         android:textAlignment="textStart"
-        android:textColor="#1a385a" />
+        android:textColor="#1a385a"
+        android:textSize="28sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/doctorPractice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/doctorName"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="Orthopedic"
+        android:textColor="#1a385a"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/doctorAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/doctorPractice"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="7612 Swim St. Pensacola, Fl."
+        android:textColor="#1a385a"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/doctorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/doctorAddress"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="mjimenez@gmail.com"
+        android:textColor="#1a385a"
+        android:textSize="22sp"
+        tools:ignore="DuplicateIds,HardcodedText" />
+
+    <TextView
+        android:id="@+id/doctorPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/doctorEmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="(850)722-9989"
+        android:textColor="#1a385a"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/doctorInsurance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/doctorPhone"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="Florida Blue"
+        android:textColor="#1a385a"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/reviewHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/doctorInsurance"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="1 Review(s):"
+        android:textColor="#1a385a"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/reviewStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/reviewHead"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="35dp"
+        android:text="4 Stars"
+        android:textColor="#1a385a"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_below="@+id/reviewStars"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="35dp"
+        android:text="I would highly recommend Dr. Jimenez.  While the wait was a little long, once I was called back it did not take long for the doctor to see me."
+        android:textColor="#1a385a"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
 
 </RelativeLayout>
