@@ -28,7 +28,8 @@
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="26dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:background="@null" />
+        android:background="@null"
+        app:layout_constraintVertical_bias="0.964" />
 
     <ImageButton
         android:id="@+id/sign_up"

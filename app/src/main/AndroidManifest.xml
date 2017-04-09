@@ -26,7 +26,8 @@
         <activity android:name=".SignIn" />
         <activity android:name=".SignInCont" />
         <activity android:name=".search" />
-        <activity android:name=".doctorBio"></activity>
+        <activity android:name=".doctorBio" />
+        <activity android:name=".LeaveReview"></activity>
     </application>
 
 </manifest>
