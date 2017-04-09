@@ -17,7 +17,8 @@
         app:srcCompat="@drawable/homeprofhdpi"
         android:layout_below="@+id/logo"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="65dp" />
+        android:layout_marginTop="65dp"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/homeScreenMyDocsButton"
@@ -26,7 +27,8 @@
         android:background="@android:color/background_light"
         app:srcCompat="@drawable/homedocshdpi"
         android:layout_below="@+id/homeScreenProfileButton"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/logo"
@@ -34,7 +36,8 @@
         android:layout_height="75dp"
         app:srcCompat="@drawable/m_logo"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/homeScreenAppointmentsButton"
@@ -43,7 +46,8 @@
         android:background="@android:color/background_light"
         app:srcCompat="@drawable/homeapptshdpi"
         android:layout_below="@+id/homeScreenMyDocsButton"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/homeScreenAboutButton"
@@ -52,7 +56,8 @@
         android:background="@android:color/background_light"
         app:srcCompat="@drawable/about"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/homeScreenSettingsButton"
@@ -61,7 +66,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/homeScreenAppointmentsButton"
         android:background="@android:color/background_light"
-        app:srcCompat="@drawable/homesettshdpi" />
+        app:srcCompat="@drawable/homesettshdpi"
+        tools:ignore="ContentDescription" />
 
 
 </RelativeLayout>
