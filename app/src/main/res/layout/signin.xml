@@ -32,36 +32,102 @@
         android:id="@+id/middleInit"
         android:layout_width="80dp"
         android:layout_height="20dp"
-        android:text="Middle Initial"
-        android:textAlignment="textStart"
-        android:textColor="#1a385a"
-        android:layout_below="@+id/firstResp"
         android:layout_alignStart="@+id/firstResp"
-        android:layout_marginTop="10dp"/>
+        android:layout_below="@+id/firstResp"
+        android:layout_marginTop="10dp"
+        android:text="Middle Initial:"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
 
     <EditText
         android:id="@+id/middleResp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/middleInit"
         android:ems="10"
+        android:hint="Middle Initial"
         android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/lastName"
         android:layout_width="80dp"
         android:layout_height="20dp"
-        android:text="Last Name"
-        android:textAlignment="textStart"
-        android:textColor="#1a385a"
-        android:layout_below="@+id/middleInit"
         android:layout_alignEnd="@+id/firstName"
-        android:layout_marginTop="10dp" />
+        android:layout_below="@+id/middleResp"
+        android:layout_marginTop="10dp"
+        android:text="Last Name:"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
 
     <EditText
         android:id="@+id/lastResp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/lastName"
+        android:layout_alignStart="@+id/firstName" />
+
+    <TextView
+        android:id="@+id/email"
+        android:text="Email:"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/firstName"
+        android:layout_below="@+id/lastResp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a" />
+
+    <EditText
+        android:id="@+id/emailResp"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/email"
         android:ems="10"
         android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/firstName"
+        android:layout_below="@+id/emailResp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a"
+        android:text="Password:" />
+
+    <EditText
+        android:id="@+id/passResp1"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/password"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/password2"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/firstName"
+        android:layout_below="@+id/passResp1"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#1a385a"
+        android:text="Confirm Password:" />
+
+    <EditText
+        android:id="@+id/passResp2"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_below="@+id/password2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
 </RelativeLayout>
