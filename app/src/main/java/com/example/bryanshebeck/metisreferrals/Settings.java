@@ -1,14 +1,18 @@
 package com.example.bryanshebeck.metisreferrals;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
+import android.support.v7.app.AppCompatActivity;
 
-public class Login extends AppCompatActivity {
+/**
+ * Created by bwkuloba on 4/8/17.
+ */
+
+public class Settings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+        setContentView(R.layout.settings);
     }
 }
