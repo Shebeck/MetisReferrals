@@ -16,6 +16,6 @@
         android:textSize="20sp"
         android:textColor="@color/colorPrimary"
         android:drawableLeft="@mipmap/doctorimage"
-        />
+        tools:ignore="RtlHardcoded,UnknownIdInLayout" />
 
 </RelativeLayout>
