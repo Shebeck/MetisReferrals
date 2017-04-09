@@ -126,4 +126,14 @@
         android:textSize="18sp"
         tools:ignore="HardcodedText" />
 
+    <Button
+        android:id="@+id/leaveReview"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:background="#1a385a"
+        android:text="Leave Review"
+        android:layout_below="@+id/review"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
 </RelativeLayout>
