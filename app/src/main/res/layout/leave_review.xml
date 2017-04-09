@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bryanshebeck.metisreferrals.LeaveReview">
+    tools:context="com.example.bryanshebeck.metisreferrals.LeaveReview"
+    android:background="@android:color/background_light">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/ratingHead"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Rating:"
+        android:textColor="#1a385a"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/rating"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/ratingHead"
+        android:layout_below="@+id/ratingHead"
+        android:textColor="#1a385a"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/reviewHead"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@+id/ratingHead"
+        android:layout_below="@+id/rating"
+        android:textColor="#1a385a"
+        android:text="Review:"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/review"
+        android:layout_width="345dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/ratingHead"
+        android:layout_below="@+id/reviewHead"
+        android:textColor="#1a385a"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/submitReview"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:background="#1a385a"
+        android:text="Submit"
+        android:layout_below="@+id/review"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
