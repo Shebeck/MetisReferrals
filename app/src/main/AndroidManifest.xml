@@ -16,13 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Home"></activity>
-        <activity android:name=".Login"></activity>
-        <activity android:name=".About"></activity>
-        <activity android:name=".MyAppointments"></activity>
-        <activity android:name=".MyDoctors"></activity>
-        <activity android:name=".Profile"></activity>
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".About" />
+        <activity android:name=".MyAppointments" />
+        <activity android:name=".MyDoctors" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Settings" />
+        <activity android:name=".SignIn"></activity>
     </application>
 
 </manifest>
