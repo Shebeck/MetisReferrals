@@ -46,7 +46,13 @@ public class Home extends AppCompatActivity {
             }
         });
 
-
+        ImageButton homeSettingsButton = (ImageButton) findViewById(R.id.homeScreenSettingsButton);
+        homeDoctorsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this, Settings.class));
+            }
+        });
 
     }
 }
