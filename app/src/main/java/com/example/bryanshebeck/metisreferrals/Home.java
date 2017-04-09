@@ -12,14 +12,7 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
-
-        Button myApptButton = (Button) findViewById(R.id.myAppt);
-        myApptButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(Home.this, MyAppointments.class));
-            }
-        });
+        
 
     }
 }
